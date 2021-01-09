@@ -3,8 +3,10 @@ Equivelent way of doing pip freeze in Jupyter Notebook. If you don;t want to fre
 
 Credit to Alex P. Miller in this [stack overflow post](https://stackoverflow.com/a/49199019).
 
-# usage
-Copy following code into your working notebook then run. "requirements.txt" will be written into the same directory.
+Note: there might be more than one methods to do this, but it is quick and efficent.
+
+# usage instruction
+Copy following code into your working notebook, put it a new cell then run. "requirements.txt" will be written into the same directory. After this you can delete the cell and save the rest.
 
 ```python
 # equivelent of "pip freeze > requirements.txt" without freezing entire environment
